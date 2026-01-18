@@ -1,2 +1,5 @@
 # csd-340
-Repository for CSD340 Web Development with HTML and CSS
+# CSD340 Web Development with HTML and CSS
+## Contributors
+* Carli McAvoy
+* 
