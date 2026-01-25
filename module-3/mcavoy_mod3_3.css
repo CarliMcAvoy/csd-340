@@ -5,10 +5,10 @@ h1
 {text-align: center}
 
 #left
-{width: 45%; border: 1px solid red; border-radius: 15px; display: inline-block}
+{width: 45%; border: 1px solid red; border-radius: 15px; padding: 10px; display: inline-block; margin-left: 20px; margin-right: 5px}
 
 #right
-{width: 45%; border: 1px dashed red; border-radius: 15px; display: inline-block; vertical-align: top}
+{width: 45%; border: 1px dashed red; border-radius: 15px; padding: 10px; display: inline-block; vertical-align: top; margin-left: 5px; margin-right: 20px}
 
 #last
 {width: 100%; margin-top: 60%; margin-bottom: 20px}
@@ -20,10 +20,10 @@ li
 {weight: 300}
 
 ol
-{padding: 10px; list-style-position: inside}
+{list-style-position: inside}
 
 ul
-{padding: 10px; list-style-type: upper-roman; list-style-position: inside}
+{list-style-type: upper-roman; list-style-position: inside}
 
 a:link
 {color: darkgoldenrod; float: right}
