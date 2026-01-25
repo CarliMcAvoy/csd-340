@@ -7,7 +7,7 @@ html
   color: white;}
 
 h1, h2, h3, h4
-{background-color: #2A5740; color: white; border-weight: 1px; border-color: #D6A800; padding: 10px}
+{background-color: #2A5740; color: white; border: 1px solid #D6A800; padding: 10px}
 
 a:link
 {color: #FFBD26; text-decoration: none}
