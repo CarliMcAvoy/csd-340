@@ -5,7 +5,7 @@ h1
 {text-align: center}
 
 #left
-{width: 45%; border: 1px solid red; border-radius: 15px; display: inline-block; column-gap: 10px}
+{width: 45%; border: 1px solid red; border-radius: 15px; display: inline-block}
 
 #right
 {width: 45%; border: 1px dashed red; border-radius: 15px; display: inline-block; vertical-align: top}
