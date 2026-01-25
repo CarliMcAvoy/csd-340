@@ -5,10 +5,10 @@ h1
 {text-align: center}
 
 #left
-{width: 45%; float: left; border: 1px solid red; border-radius: 15px}
+{width: 45%; border: 1px solid red; border-radius: 15px; display: inline-block}
 
 #right
-{width: 45%; float: right; border: 1px dashed red; border-radius: 15px}
+{width: 45%; border: 1px dashed red; border-radius: 15px; display: inline-block}
 
 #last
 {width: 100%; margin-top: 60%; margin-bottom: 20px; float: right}
