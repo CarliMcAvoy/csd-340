@@ -1,0 +1,32 @@
+h1
+{text-align: center}
+
+#left
+{width: 45%; display: inline-block; border: 1px solid red; border-radius: 15px}
+
+#right
+{width: 45%; display: inline-block; border: 1px dashed red; border-radius: 15px}
+
+#last
+{width: 100%; padding-top: 60%; padding-bottom: 20px; float: right}
+
+h3
+{weight: 500}
+
+li
+{weight: 300}
+
+ol
+{padding: 10px; list-style-position: inside}
+
+ul
+{padding: 10px; list-style-type: upper-roman; list-style-position: inside}
+
+a:link
+{color: darkgoldenrod}
+
+a:visited
+{color: darkslateblue}
+
+a:hover
+{color: cornflowerblue; text-decoration: underline}
