@@ -8,10 +8,10 @@ h1
 {width: 45%; border: 1px solid red; border-radius: 15px; display: inline-block}
 
 #right
-{width: 45%; border: 1px dashed red; border-radius: 15px; display: inline-block}
+{width: 45%; border: 1px dashed red; border-radius: 15px; display: inline-block; vertical-align: top}
 
 #last
-{width: 100%; margin-top: 60%; margin-bottom: 20px; float: right}
+{width: 100%; margin-top: 60%; margin-bottom: 20px}
 
 h3
 {weight: 500}
@@ -26,7 +26,7 @@ ul
 {padding: 10px; list-style-type: upper-roman; list-style-position: inside}
 
 a:link
-{color: darkgoldenrod}
+{color: darkgoldenrod; float: right}
 
 a:visited
 {color: darkslateblue}
