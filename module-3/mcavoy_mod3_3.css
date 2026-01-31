@@ -14,10 +14,10 @@ h1
 {width: 100%; margin-top: 60%; margin-bottom: 20px}
 
 h3
-{weight: 500}
+{font-weight: 500}
 
 li
-{weight: 300}
+{font-weight: 300}
 
 ol
 {list-style-position: inside}
