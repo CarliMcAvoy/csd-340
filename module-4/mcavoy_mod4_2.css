@@ -6,7 +6,7 @@ html{
 
 #container h1{
     text-align: center;
-    rgb(24 82 2 / 30%)
+    rgba(24 82 2)
 }
 
 #image-gallery{
@@ -22,7 +22,7 @@ html{
 
 h3{
     text-align: center;
-    rgb(2 43 82 / 50%)
+    rgba(2 43 82)
 }
 
 figure{
@@ -32,7 +32,7 @@ figure{
 figcaption{
     font-style: italic;
     font-size: .75em;
-    rgb(179 216 255 / 30%)
+    rgba(179 216 255)
 }
 
 #link{
