@@ -1,0 +1,95 @@
+html{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+body{
+    background-color: #C7C7C7;
+    margin: 0
+}
+
+nav{
+    background-color: #ACC9CA;
+    overflow: hidden;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #154747;
+}
+
+#navbar{
+    margin: 20px
+}
+
+nav a{
+    color: #154747;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px grey
+}
+
+#top_page{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 5%
+}
+
+#header{
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 0.6;
+    float: right;
+    overflow-wrap: break-word;
+    margin: 5% 5px 5% 5px
+}
+
+#header h1{
+    color: #033333
+}
+
+#image{
+    float: left;
+    margin: 5% 5px 5% 5px;
+}
+
+#image img{
+    max-height: 20%;
+    max-width: 30%;
+    display: block;
+    border: 15px solid #4A8787
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px
+}
+
+#text_box{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    margin: 5%;
+    width: 650px;
+    line-height: 1.4
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: auto
+}
+

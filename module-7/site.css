@@ -1,0 +1,95 @@
+html{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+header{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+body{
+    background-color: #C7C7C7;
+    margin: 0
+}
+
+nav{
+    background-color: #ACC9CA;
+    overflow: hidden;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #154747;
+}
+
+#navbar{
+    margin: 20px
+}
+
+nav a{
+    color: #154747;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px grey
+}
+
+#heading{
+    margin: 5% 5% 5px 5%;
+    font-size: 60px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    float: left;
+    width: 33%;
+    background-color: #4A8787;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4)
+}
+
+#image{
+    float: right;
+    display: inline-block;
+    margin: 10px;
+    height: 800px;
+    width: 400px
+}
+
+#image img{
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5)
+}
+
+#text_box{
+    font-size: 20px;
+    width: 450px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 5%;
+    line-height: 1.6
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    margin-top: auto
+}
+
+
+
