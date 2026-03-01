@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta name="description" content="HTML and CSS Web Development Exercise">
+    <meta name="robots" content="nofollow">
+    <meta name="author" content="Carli McAvoy">
+    <meta name="pragma" content="no-cache">
+    <link href="mcavoy_mod2_2.css" type="text/css" rel="stylesheet">
+    <script>
+        let one = "Florida"
+        let two = "Florida"
+        let three = "guitar"
+        let four = "North Carolina"
+
+        function buttonCallOne(){
+            document.getElementById("stateOne").innerHTML = one
+        }
+        function buttonCallTwo(){
+            document.getElementById("stateTwo").innerHTML = two
+        }
+        function buttonCallThree(){
+            document.getElementById("inst").innerHTML = three
+        }
+        function buttonCallFour(){
+            document.getElementById("stateThree").innerHTML = four
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter 1 - The Author</h2>
+        <p class="intro">
+            <span class="sentence">Hi there!</span> My name is Carli McAvoy and I live in the western part of North
+            Carolina. Although it is beautiful here, I can't help but miss my hometown in central
+            <button type="button" onclick="buttonCallOne()"><span id = "stateOne">___</span></button>
+            from time to time. Being close to the
+            mountains is certainly a change from being close to the beach.
+        </p>
+        <p>
+            I always tend to brag about my upbringing in <button type="button" onclick="buttonCallTwo()">
+            <span id = "stateTwo">___</span></button>.
+            Being so close to the beach, I can't even begin to list all the adventures I used to go on with my friends
+            as a teenager. Not to mention Florida's beautiful natural springs, and of course, their famous amusement parks.
+        </p>
+        <p>
+            When I'm not thinking about what adventures I can go on next, I have a few hobbies that work as both
+            creative and physical outlets when the world becomes too much to handle. I have always loved creating music,
+            whether it's on the <button type="button" onclick="buttonCallThree()">
+            <span id = "inst">___</span></button>, piano, or singing. When
+            I hit a writer's block, I turn my attention to the beloved gaming consoles. I've also always been very
+            active and find myself boxing, cycling, or hitting the gym when I've got extra energy.
+        </p>
+        <p>
+            While I may sound like a bit of a free spirit, there is certainly nothing more important to me than my
+            family, blood and chosen. It was my mother's decision to move that originally brought me to
+            <button type="button" onclick="buttonCallFour()"><span id = "stateThree">___</span></button>.
+            Me, my mother, and my sister have had a
+            close relationship my entire life; I couldn't imagine a world without them at the forefront of it.
+        </p>
+        <hr>
+        <address>
+            <a href="bellevue.edu">Bellevue University</a><br>1000 Galvin Road South<br>Bellevue, NE 68005
+        </address>
+    </div>
+
+</body>
+</html>
