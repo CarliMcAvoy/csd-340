@@ -1,0 +1,45 @@
+html{
+    font-family: "DM Sans", sans-serif;
+    background-color: #F0F0F0
+}
+
+header{
+    background-color: #154747;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    display: inline-block
+}
+
+header img{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin: 5px
+}
+
+header h1{
+    color: white;
+    text-align: center
+}
+
+p{
+    float: left;
+    margin: 5% 10px;
+    font-size: 18px
+}
+
+#container{
+    display: grid
+}
+
+figure img{
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 5px 0;
+    margin-bottom: 5px
+}
+
+figcaption{
+    font-style: italic
+}

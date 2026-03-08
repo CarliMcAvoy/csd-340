@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link href="mcavoy_mod10_3.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Assignment 10.3: JavaScript - Part 2</h1>
+        <a href="https://www.instagram.com/putrid.hound/"><img src="photos/insta.png"></a>
+    </header>
+    <div id="container">
+        <p>Click on the image below to see a different artwork by Putrid Hound.</p>
+        <figure>
+            <img id="gallery" src="photos/ph1.jfif" alt="Putrid Hound Image One">
+            <figcaption>Artist: Putrid Hound</figcaption>
+        </figure>
+    </div>
+    <script>
+        const picture = document.getElementById("gallery")
+        picture.addEventListener("click", function(){
+            picture.src = "photos/ph2.jfif"
+        })
+
+    </script>
+</body>
+</html>
