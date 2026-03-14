@@ -8,7 +8,7 @@
 <body>
 <header><h1>Assignment 11.2: JavaScript - Part 3</h1></header>
 <div id="container">
-    <form action="#" method="get">
+    <form action="https://carlimcavoy.github.io/csd-340/module-11/mcavoy_mod11_2.html" method="get">
         <fieldset>
             <p>Enter a task below and click "Add" to add it to your To-Do List. Select "Delete Latest Entry to delete
             the last task entered. Select "Sort" to sort your list.</p>
@@ -68,9 +68,12 @@
         renderArray()
     })
 
-    displayArray.addEventListener("submit", function(){
-        displayArray.textContent = taskArray.join()
-    })
+    taskArray.forEach(displayFunc)
+    text += "display"
+
+    function displayFunc(value){
+        text += "<li>" + value + "</li>"
+    }
 
     renderArray()
 </script>
