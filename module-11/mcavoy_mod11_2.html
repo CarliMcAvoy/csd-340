@@ -9,8 +9,8 @@
 <header><h1>Assignment 11.2: JavaScript - Part 3</h1></header>
 <div id="container">
         <fieldset>
-            <p>Enter a task below and click "Add" to add it to your To-Do List. Select "Delete Latest Entry to delete
-            the last task entered. Select "Sort" to sort your list.</p>
+            <p>Enter a task below and click <span>"Add"</span> to add it to your To-Do List. <br>Select <span>"Delete
+                Latest Entry"</span> to delete the last task entered. Select <span>"Sort"</span> to sort your list.</p>
             <input type="text" id="task" size="40" placeholder="Enter Task...">
             <div id="buttons">
                 <button id="add" type="button">+ Add</button>
@@ -18,9 +18,11 @@
                 <button id="sort" type="button">Sort</button>
             </div>
         </fieldset>
-    <h3>View List:</h3>
-    <ul id="display"></ul>
 </div>
+    <div id="list">
+        <h2>View List:</h2>
+        <ul id="display"></ul>
+    </div>
 <script>
     const input = document.getElementById("task")
     const addButton = document.getElementById("add")
