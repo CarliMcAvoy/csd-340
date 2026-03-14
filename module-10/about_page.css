@@ -1,0 +1,140 @@
+html{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+body{
+    background-image: url("photos/foliage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+nav{
+    background-color: #ACC9CA;
+    overflow: hidden;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 5px solid #154747;
+}
+
+#navbar{
+    margin: 20px
+}
+
+nav a{
+    color: #154747;
+    font-weight: bold;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+nav a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px grey
+}
+
+#top_page{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    background-color: #C7C7C7;
+    border-radius: 15px;
+    margin: 5% 10px 5% 10px;
+
+}
+
+#header{
+    font-family: "Playfair Display", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 0.6;
+    line-spacing: 2px;
+    color: #033333;
+    text-align: left;
+    overflow-wrap: break-word;
+    margin: 5% 5px 5% 0
+}
+
+#image{
+    float: left;
+    margin: 5% 2px 5% 5px;
+}
+
+#image img{
+    height: 350px;
+    width: 550px;
+    display: block;
+    box-shadow: 0px 0px 15px 5px rgba(74, 135, 135);
+    border-radius: 5px
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px
+}
+
+#text_box{
+    display: block;
+    text-align: left;
+    margin: 5% 5% 20% 5%;
+    width: 60%;
+}
+
+#text_box h2{
+    font-size: 26px;
+    color: #033333
+}
+
+#text_box p{
+    font-size: 18px;
+    line-height: 1.5
+}
+
+#p1{
+    background-color: #C7C7C7;
+    border-radius: 15px;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
+}
+
+#p2{
+    background-color: #C7C7C7;
+    border-radius: 15px;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
+}
+
+#p3{
+    background-color: #C7C7C7;
+    border-radius: 15px;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 15px 0 rgba(74, 135, 135);
+}
+
+footer{
+    color: black;
+    background-color: #ACC9CA;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 0 5px 5px rgba(255 255 255)
+}
+
+footer p{
+    float: left;
+    margin: 10px
+}
+
