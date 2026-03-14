@@ -11,11 +11,11 @@
         <fieldset>
             <p>Enter a task below and click "Add" to add it to your To-Do List. Select "Delete Latest Entry to delete
             the last task entered. Select "Sort" to sort your list.</p>
-            <input type="text" id="task" name="task" size="40" placeholder="Enter Task...">
+            <input type="text" id="task" size="40" placeholder="Enter Task...">
             <div id="buttons">
-                <label><button id="add" type="button">+ Add</button></label>
-                <label><button id="delete" type="button">Delete Latest Entry</button></label>
-                <label><button id="sort" type="button">Sort</button></label>
+                <button id="add" type="button">+ Add</button>
+                <button id="delete" type="button">Delete Latest Entry</button>
+                <button id="sort" type="button">Sort</button>
             </div>
         </fieldset>
     <h3>View List:</h3>
@@ -30,16 +30,6 @@
 
     const taskArray = []
 
-    function renderArray(){
-        displayArray.innerHTML = " "
-
-        input.forEach(inputText => {
-            const li = document.createElement("li")
-            li.textContent = inputText
-            displayArray.appendChild(li)
-        })
-    }
-
     addButton.addEventListener("click", function(){
         const value = input.value.trim()
 
@@ -50,6 +40,16 @@
             console.log("Current List:", taskArray)
         }
     })
+
+    function renderArray(){
+        displayArray.innerHTML = ''
+
+        taskArray.forEach(item => {
+            const li = document.createElement("li")
+            li.textContent = item
+            displayArray.appendChild(li)
+        })
+    }
 
     deleteButton.addEventListener("click", function(){
         if(taskArray.length > 0){
@@ -66,7 +66,6 @@
         renderArray()
     })
 
-    renderArray()
 </script>
 </body>
 </html>
